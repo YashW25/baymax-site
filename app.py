@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_mail import Mail, Message
 from chatbot.treatment import get_treatment_for_input
 from chatbot.responder import generate_response as fallback_response
+import os
 
 app = Flask(__name__)
 
@@ -9,8 +10,8 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'yashwarulkar25@gmail.com'       # ✅ Your email
-app.config['MAIL_PASSWORD'] = 'Yash@123'                        # ✅ App password (not Gmail password!)
+app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME')
+app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD') # ✅ App password (not Gmail password!)
 app.config['MAIL_DEFAULT_SENDER'] = 'yashwarulkar25@gmail.com' # ✅ Sender address
 
 mail = Mail(app)
