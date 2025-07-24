@@ -5,5 +5,4 @@ requests
 simpleaudio
 opencv-python
 numpy
-pyaudio
-speechrecognition
+
