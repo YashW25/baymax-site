@@ -1,0 +1,245 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #e8f5e9);
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Wrapper to center content */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Main container */
+.container {
+  width: 95%;
+  max-width: 800px;
+  background-color: #ffffffee;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+/* Centered Baymax video */
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.video-container {
+  position: relative;
+  justify-content: center;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.video-label {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+/* Chat section */
+.chat-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  min-height: 80px;
+}
+
+#submitBtn {
+  align-self: center;
+  padding: 10px 25px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+  width: 100%;
+}
+
+#submitBtn:hover{
+  background-color: #1565c0;
+}
+
+#contactDoctorBtn {
+  position: fixed;
+  bottom: 100px;
+  left: 20px;
+  z-index: 1000;
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: #b9dcff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#contactDoctorBtn:hover {
+  background-color: #192532;
+}
+
+
+/* Response area */
+.response-box {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f1f8e9;
+  border-left: 5px solid #81c784;
+  border-radius: 10px;
+  color: #333;
+  white-space: pre-line;
+}
+
+/* Emotion label */
+#emotionDisplay {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Modal Base */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 8% auto;
+  padding: 30px 20px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+/* Form fields */
+#doctorForm input,
+#doctorForm textarea,
+#doctorForm button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#doctorForm textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#doctorForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#doctorForm button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Close button (X) */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    background-color: #bedeff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}

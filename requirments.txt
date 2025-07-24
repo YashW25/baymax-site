@@ -1,0 +1,10 @@
+Flask
+pyttsx3
+pydub
+requests
+simpleaudio
+opencv-python
+numpy
+pyaudio
+speechrecognition
+openai  # If you're using OpenAI API in response_engine

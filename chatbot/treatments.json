@@ -1,0 +1,594 @@
+{
+    "anorexia": {
+        "medications": ["Megestrol acetate", "Dronabinol", "Mirtazapine"],
+        "other": ["Nutritional supplements", "Cognitive behavioral therapy"]
+    },
+    "weight loss": {
+        "medications": ["Megestrol acetate", "Oxandrolone"],
+        "other": ["High-calorie diet", "Nutritional counseling"]
+    },
+    "weight gain": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Diet/exercise plan", "Thyroid medication if hypothyroid"]
+    },
+    "chills": {
+        "medications": ["Acetaminophen", "Ibuprofen"],
+        "other": ["Warm blankets", "Hydration"]
+    },
+    "shivering": {
+        "medications": ["Acetaminophen", "Ibuprofen"],
+        "other": ["Warm environment", "Blankets"]
+    },
+    "convulsions": {
+        "medications": ["Lorazepam", "Diazepam", "Phenytoin"],
+        "other": ["Emergency medical care", "Protect from injury"]
+    },
+    "fatigue": {
+        "medications": ["Modafinil (for narcolepsy)", "Methylphenidate"],
+        "other": ["Sleep hygiene", "Iron supplements if anemic"]
+    },
+    "dizziness": {
+        "medications": ["Meclizine", "Dimenhydrinate"],
+        "other": ["Epley maneuver (for BPPV)", "Slow position changes"]
+    },
+    "vertigo": {
+        "medications": ["Meclizine", "Promethazine"],
+        "other": ["Vestibular rehabilitation", "Epley maneuver"]
+    },
+    "sweats": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Cool environment", "Antiperspirants"]
+    },
+    "malaise": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Rest", "Hydration"]
+    },
+    "muscle weakness": {
+        "medications": ["Pyridostigmine (for myasthenia gravis)"],
+        "other": ["Physical therapy", "Assistive devices"]
+    },
+    "pyrexia": {
+        "medications": ["Acetaminophen", "Ibuprofen"],
+        "other": ["Cool compresses", "Hydration"]
+    },
+    "jaundice": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Phototherapy (for newborns)", "Hydration"]
+    },
+    "headache": {
+        "medications": ["Acetaminophen", "Ibuprofen", "Sumatriptan (for migraines)"],
+        "other": ["Dark room", "Cold compress"]
+    },
+    "abdominal pain": {
+        "medications": ["Hyoscyamine", "Dicyclomine"],
+        "other": ["Heating pad", "BRAT diet"]
+    },
+    "back pain": {
+        "medications": ["NSAIDs", "Muscle relaxants"],
+        "other": ["Physical therapy", "Proper posture"]
+    },
+    "chest pain": {
+        "medications": ["EMERGENCY - call 911"],
+        "other": ["Nitroglycerin (if prescribed for cardiac history)"]
+    },
+    "toothache": {
+        "medications": ["Benzocaine gel", "NSAIDs"],
+        "other": ["Dental evaluation", "Salt water rinse"]
+    },
+    "earache": {
+        "medications": ["Amoxicillin (if bacterial)", "NSAIDs"],
+        "other": ["Warm compress", "Over-the-counter ear drops"]
+    },
+    "pelvic pain": {
+        "medications": ["NSAIDs", "Hormonal therapy"],
+        "other": ["Pelvic floor therapy", "Heating pad"]
+    },
+    "muscle cramps": {
+        "medications": ["Magnesium", "Quinine sulfate"],
+        "other": ["Stretching", "Hydration"]
+    },
+    "proctalgia": {
+        "medications": ["Topical lidocaine", "NSAIDs"],
+        "other": ["Sitz baths", "Stool softeners"]
+    },
+    "arthralgia": {
+        "medications": ["NSAIDs", "Corticosteroids"],
+        "other": ["Joint protection", "Physical therapy"]
+    },
+    "painful intercourse": {
+        "medications": ["Topical estrogen (postmenopausal)", "Lubricants"],
+        "other": ["Pelvic floor therapy", "Communication with partner"]
+    },
+    "confusion": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Safety measures", "Orientation cues"]
+    },
+    "hallucination": {
+        "medications": ["Risperidone", "Haloperidol"],
+        "other": ["Psychiatric evaluation", "Safe environment"]
+    },
+    "memory loss": {
+        "medications": ["Donepezil", "Memantine (for dementia)"],
+        "other": ["Cognitive therapy", "Memory aids"]
+    },
+    "tremor": {
+        "medications": ["Propranolol", "Primidone"],
+        "other": ["Avoid caffeine", "Stress reduction"]
+    },
+    "fasciculation": {
+        "medications": ["(Usually benign)"],
+        "other": ["Magnesium", "Stress reduction"]
+    },
+    "paresthesia": {
+        "medications": ["Gabapentin", "Pregabalin"],
+        "other": ["Treat underlying cause", "Protect numb areas"]
+    },
+    "insomnia": {
+        "medications": ["Zolpidem", "Trazodone", "Melatonin"],
+        "other": ["Sleep hygiene", "Relaxation techniques"]
+    },
+    "ataxia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Physical therapy", "Assistive devices"]
+    },
+    "aphasia": {
+        "medications": ["(Speech therapy)"],
+        "other": ["Communication devices", "Patience"]
+    },
+    "paralysis": {
+        "medications": ["EMERGENCY"],
+        "other": ["Rehabilitation", "Adaptive equipment"]
+    },
+    "numbness": {
+        "medications": ["Gabapentin (for neuropathic)"],
+        "other": ["Treat underlying cause", "Protect numb areas"]
+    },
+    "dysgraphia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Occupational therapy", "Speech therapy"]
+    },
+    "myoclonus": {
+        "medications": ["Clonazepam", "Levetiracetam"],
+        "other": ["Treat underlying cause", "Safety measures"]
+    },
+    "tic": {
+        "medications": ["Clonidine", "Antipsychotics for severe cases"],
+        "other": ["Behavioral therapy", "Stress reduction"]
+    },
+    "blepharospasm": {
+        "medications": ["Botulinum toxin injections"],
+        "other": ["Dark glasses", "Stress reduction"]
+    },
+    "cataplexy": {
+        "medications": ["Sodium oxybate", "Antidepressants"],
+        "other": ["Scheduled naps", "Safety measures"]
+    },
+    "dysarthria": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Speech therapy", "Communication aids"]
+    },
+    "dystonia": {
+        "medications": ["Botulinum toxin", "Anticholinergics"],
+        "other": ["Physical therapy", "Stress reduction"]
+    },
+    "bradykinesia": {
+        "medications": ["Levodopa", "Dopamine agonists"],
+        "other": ["Physical therapy", "Assistive devices"]
+    },
+    "opsoclonus": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Immunotherapy if paraneoplastic"]
+    },
+    "agnosia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Occupational therapy", "Compensatory strategies"]
+    },
+    "akinesia": {
+        "medications": ["Levodopa", "Dopamine agonists"],
+        "other": ["Physical therapy", "Assistive devices"]
+    },
+    "apraxia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Occupational therapy", "Compensatory strategies"]
+    },
+    "cough": {
+        "medications": ["Dextromethorphan", "Guaifenesin"],
+        "other": ["Honey", "Steam inhalation"]
+    },
+    "cold": {
+        "medications": ["Pseudoephedrine", "Antihistamines"],
+        "other": ["Zinc lozenges", "Saline nasal spray"]
+    },
+    "fever": {
+        "medications": ["Acetaminophen", "Ibuprofen"],
+        "other": ["Cool compresses", "Hydration"]
+    },
+    "shortness of breath": {
+        "medications": ["EMERGENCY if acute", "Bronchodilators if asthma"],
+        "other": ["Pursed-lip breathing", "Sitting upright"]
+    },
+    "dyspnea": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Oxygen if hypoxic", "Breathing exercises"]
+    },
+    "wheezing": {
+        "medications": ["Albuterol", "Corticosteroids"],
+        "other": ["Avoid triggers", "Breathing exercises"]
+    },
+    "apnea": {
+        "medications": ["CPAP", "BiPAP"],
+        "other": ["Weight loss if obese", "Positional therapy"]
+    },
+    "tachypnea": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Breathing exercises", "Oxygen if needed"]
+    },
+    "bradypnea": {
+        "medications": ["EMERGENCY"],
+        "other": ["Oxygen", "Ventilatory support"]
+    },
+    "hemoptysis": {
+        "medications": ["EMERGENCY"],
+        "other": ["Treat underlying cause"]
+    },
+    "orthopnea": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Elevate head of bed", "Diuretics if CHF"]
+    },
+    "platypnea": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Oxygen", "Positional changes"]
+    },
+    "trepopnea": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Positional changes", "Treat cardiac/pulmonary condition"]
+    },
+    "sputum production": {
+        "medications": ["Guaifenesin", "Antibiotics if bacterial"],
+        "other": ["Hydration", "Steam inhalation"]
+    },
+    "pleuritic chest pain": {
+        "medications": ["NSAIDs", "Treat underlying cause"],
+        "other": ["Shallow breathing", "Position of comfort"]
+    },
+    "nausea": {
+        "medications": ["Ondansetron", "Metoclopramide"],
+        "other": ["Ginger", "Small frequent meals"]
+    },
+    "vomiting": {
+        "medications": ["Ondansetron", "Promethazine"],
+        "other": ["Clear liquids", "BRAT diet"]
+    },
+    "diarrhea": {
+        "medications": ["Loperamide", "Bismuth subsalicylate"],
+        "other": ["BRAT diet", "Oral rehydration solutions"]
+    },
+    "constipation": {
+        "medications": ["Polyethylene glycol", "Senna"],
+        "other": ["Increased fiber", "Water intake"]
+    },
+    "bloating": {
+        "medications": ["Simethicone", "Probiotics"],
+        "other": ["Small meals", "Avoid gas-producing foods"]
+    },
+    "heartburn": {
+        "medications": ["PPIs (omeprazole)", "H2 blockers"],
+        "other": ["Elevate head of bed", "Avoid late meals"]
+    },
+    "abdominal cramps": {
+        "medications": ["Hyoscyamine", "Dicyclomine"],
+        "other": ["Heating pad", "Peppermint tea"]
+    },
+    "flatulence": {
+        "medications": ["Simethicone", "Alpha-galactosidase"],
+        "other": ["Diet modification", "Slow eating"]
+    },
+    "dyspepsia": {
+        "medications": ["PPIs", "H2 blockers"],
+        "other": ["Small frequent meals", "Avoid triggers"]
+    },
+    "fecal incontinence": {
+        "medications": ["Loperamide", "Amitriptyline"],
+        "other": ["Pelvic floor exercises", "Dietary fiber"]
+    },
+    "rectal bleeding": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["High fiber diet", "Sitz baths"]
+    },
+    "hematemesis": {
+        "medications": ["EMERGENCY"],
+        "other": ["NPO", "IV fluids"]
+    },
+    "melena": {
+        "medications": ["EMERGENCY"],
+        "other": ["NPO", "IV fluids"]
+    },
+    "hematochezia": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Hydration", "Monitor for shock"]
+    },
+    "pyrosis": {
+        "medications": ["PPIs", "H2 blockers"],
+        "other": ["Elevate head of bed", "Avoid late meals"]
+    },
+    "odynophagia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Soft diet", "Warm salt water gargles"]
+    },
+    "rectal tenesmus": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Sitz baths", "High fiber diet"]
+    },
+    "steatorrhea": {
+        "medications": ["Pancreatic enzymes", "Bile acid sequestrants"],
+        "other": ["Low-fat diet", "Vitamin supplementation"]
+    },
+    "belching": {
+        "medications": ["Simethicone"],
+        "other": ["Slow eating", "Avoid carbonation"]
+    },
+    "dysphagia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Soft diet", "Swallowing therapy"]
+    },
+    "rash": {
+        "medications": ["Hydrocortisone cream", "Antihistamines"],
+        "other": ["Cool compresses", "Oatmeal baths"]
+    },
+    "itching": {
+        "medications": ["Antihistamines", "Topical steroids"],
+        "other": ["Moisturizers", "Cool baths"]
+    },
+    "swelling": {
+        "medications": ["Diuretics if indicated", "NSAIDs"],
+        "other": ["Elevation", "Compression"]
+    },
+    "bruising": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Ice packs", "Protect area"]
+    },
+    "blister": {
+        "medications": ["Topical antibiotics", "Steroid creams"],
+        "other": ["Leave intact if possible", "Clean dressing"]
+    },
+    "dry skin": {
+        "medications": ["Emollients", "Urea cream"],
+        "other": ["Humidifier", "Avoid hot showers"]
+    },
+    "laceration": {
+        "medications": ["Topical antibiotics"],
+        "other": ["Clean wound", "Proper dressing"]
+    },
+    "urticaria": {
+        "medications": ["Antihistamines", "Corticosteroids if severe"],
+        "other": ["Cool compresses", "Identify triggers"]
+    },
+    "petechia": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Protect skin", "Monitor for spread"]
+    },
+    "purpura": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Protect skin", "Monitor for spread"]
+    },
+    "edema": {
+        "medications": ["Diuretics if indicated"],
+        "other": ["Elevation", "Compression stockings"]
+    },
+    "ecchymosis": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Ice packs", "Protect area"]
+    },
+    "anasarca": {
+        "medications": ["Diuretics", "Albumin if indicated"],
+        "other": ["Sodium restriction", "Fluid management"]
+    },
+    "blurred vision": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Corrective lenses", "Eye exam"]
+    },
+    "double vision": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Eye patch (temporary)", "Prism glasses"]
+    },
+    "nystagmus": {
+        "medications": ["Gabapentin", "Baclofen"],
+        "other": ["Vision therapy", "Prism glasses"]
+    },
+    "blindness": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Vision rehabilitation", "Adaptive devices"]
+    },
+    "exophthalmos": {
+        "medications": ["(Treat thyroid disease)"],
+        "other": ["Lubricating eye drops", "Eye protection"]
+    },
+    "mydriasis": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Dark glasses", "Pilocarpine if needed"]
+    },
+    "miosis": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Treat underlying cause"]
+    },
+    "amaurosis": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Vision rehabilitation", "Safety measures"]
+    },
+    "amaurosis fugax": {
+        "medications": ["EMERGENCY"],
+        "other": ["Carotid evaluation", "Aspirin if ischemic"]
+    },
+    "anxiety": {
+        "medications": ["SSRIs", "Benzodiazepines (short-term)"],
+        "other": ["Cognitive behavioral therapy", "Relaxation techniques"]
+    },
+    "depression": {
+        "medications": ["SSRIs", "SNRIs"],
+        "other": ["Psychotherapy", "Exercise"]
+    },
+    "mania": {
+        "medications": ["Mood stabilizers", "Antipsychotics"],
+        "other": ["Psychiatric care", "Safety measures"]
+    },
+    "irritability": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Stress management", "Adequate sleep"]
+    },
+    "suicidal ideation": {
+        "medications": ["EMERGENCY"],
+        "other": ["Crisis intervention", "Safety planning"]
+    },
+    "euphoria": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Psychiatric evaluation if inappropriate"]
+    },
+    "apathy": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Behavioral activation", "Goal setting"]
+    },
+    "delusion": {
+        "medications": ["Antipsychotics"],
+        "other": ["Psychiatric evaluation", "Reality orientation"]
+    },
+    "confabulation": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Memory aids", "Gentle correction"]
+    },
+    "phobia": {
+        "medications": ["SSRIs", "Benzodiazepines (short-term)"],
+        "other": ["Exposure therapy", "Relaxation techniques"]
+    },
+    "paranoid ideation": {
+        "medications": ["Antipsychotics"],
+        "other": ["Psychiatric evaluation", "Safe environment"]
+    },
+    "anhedonia": {
+        "medications": ["Antidepressants"],
+        "other": ["Behavioral activation", "Social support"]
+    },
+    "amusia": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Music therapy", "Compensatory strategies"]
+    },
+    "urinary retention": {
+        "medications": ["Alpha blockers", "Cholinergics"],
+        "other": ["Catheterization if needed", "Double voiding"]
+    },
+    "urinary incontinence": {
+        "medications": ["Anticholinergics", "Mirabegron"],
+        "other": ["Pelvic floor exercises", "Bladder training"]
+    },
+    "urinary frequency": {
+        "medications": ["Anticholinergics", "Mirabegron"],
+        "other": ["Bladder training", "Fluid management"]
+    },
+    "dysuria": {
+        "medications": ["Antibiotics if UTI", "Phenazopyridine"],
+        "other": ["Hydration", "Cranberry products"]
+    },
+    "hematuria": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Hydration", "Monitor"]
+    },
+    "urethral discharge": {
+        "medications": ["Antibiotics (STI treatment)"],
+        "other": ["Hydration", "Partner notification"]
+    },
+    "polyuria": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Hydration", "Monitor electrolytes"]
+    },
+    "strangury": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Hydration", "Pain management"]
+    },
+    "amenorrhea": {
+        "medications": ["Hormone therapy", "Treat underlying cause"],
+        "other": ["Nutritional counseling", "Stress reduction"]
+    },
+    "infertility": {
+        "medications": ["Clomiphene", "Gonadotropins"],
+        "other": ["Fertility counseling", "Timed intercourse"]
+    },
+    "vaginal discharge": {
+        "medications": ["Antifungals", "Antibiotics"],
+        "other": ["Cotton underwear", "Avoid douching"]
+    },
+    "abnormal vaginal bleeding": {
+        "medications": ["Hormonal therapy", "Treat underlying cause"],
+        "other": ["Iron if anemic", "Monitor"]
+    },
+    "vaginal bleeding in early pregnancy": {
+        "medications": ["Progesterone if indicated"],
+        "other": ["Pelvic rest", "Emergency evaluation"]
+    },
+    "vaginal bleeding in late pregnancy": {
+        "medications": ["EMERGENCY"],
+        "other": ["Emergency evaluation", "Delivery if needed"]
+    },
+    "hematospermia": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Reassurance if benign", "Monitor"]
+    },
+    "retrograde ejaculation": {
+        "medications": ["(Evaluate cause)"],
+        "other": ["Fertility techniques", "Urologic evaluation"]
+    },
+    "tachycardia": {
+        "medications": ["Beta blockers", "Calcium channel blockers"],
+        "other": ["Vagal maneuvers", "Treat underlying cause"]
+    },
+    "bradycardia": {
+        "medications": ["Atropine if symptomatic", "Pacemaker if chronic"],
+        "other": ["Treat underlying cause", "Monitor"]
+    },
+    "arrhythmia": {
+        "medications": ["Antiarrhythmics", "Beta blockers"],
+        "other": ["Cardiac monitoring", "Treat underlying cause"]
+    },
+    "palpitations": {
+        "medications": ["Beta blockers", "Calcium channel blockers"],
+        "other": ["Avoid triggers", "Stress reduction"]
+    },
+    "claudication": {
+        "medications": ["Cilostazol", "Pentoxifylline"],
+        "other": ["Exercise program", "Smoking cessation"]
+    },
+    "sore throat": {
+        "medications": ["Penicillin (if strep)", "NSAIDs"],
+        "other": ["Salt water gargles", "Lozenges"]
+    },
+    "epistaxis": {
+        "medications": ["Topical vasoconstrictors"],
+        "other": ["Pinch nose", "Humidifier"]
+    },
+    "dry mouth": {
+        "medications": ["Pilocarpine", "Cevimeline"],
+        "other": ["Sugar-free gum", "Frequent sips of water"]
+    },
+    "halitosis": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["Oral hygiene", "Tongue scraping"]
+    },
+    "nasal discharge": {
+        "medications": ["Antihistamines", "Decongestants"],
+        "other": ["Saline nasal spray", "Humidifier"]
+    },
+    "otalgia": {
+        "medications": ["NSAIDs", "Antibiotics if infection"],
+        "other": ["Warm compress", "Ear drops"]
+    },
+    "otorrhea": {
+        "medications": ["Antibiotic ear drops", "Oral antibiotics"],
+        "other": ["Keep ear dry", "Avoid Q-tips"]
+    },
+    "tinnitus": {
+        "medications": ["(Treat underlying cause)"],
+        "other": ["White noise machines", "Hearing aids if hearing loss"]
+    },
+    "trismus": {
+        "medications": ["Muscle relaxants", "NSAIDs"],
+        "other": ["Warm compresses", "Gentle stretching"]
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baymax AI Assistant</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>🤖 Baymax AI Assistant</h1>
+
+      <!-- Baymax Video -->
+      <div class="video-wrapper">
+        <div class="video-container">
+          <video id="baymaxVideo" autoplay muted loop>
+            <source src="/static/videos/idle.mp4" type="video/mp4" />
+          </video>
+          <div class="video-label">Baymax</div>
+        </div>
+      </div>
+
+      <!-- Chat interface -->
+      <div class="chat-section">
+        <textarea id="userInput" rows="3" placeholder="Tell me your symptoms or how you're feeling..."></textarea>
+        <button id="submitBtn">Submit</button>
+        <button id="contactDoctorBtn">🩺</button>
+        <div id="response" class="response-box"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Doctor Modal -->
+  <div id="doctorModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>👨‍⚕️ Contact a Doctor</h2>
+      <form id="doctorForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="mobile" placeholder="Mobile Number" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="city" placeholder="City" required />
+        <input type="number" id="age" placeholder="Age" required />
+        <textarea id="symptoms" placeholder="Describe your symptoms" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/js/script.js"></script>
+</body>
+<footer class="foot">
+    <p>&copy; 2024 Baymax AI Assistant by Yash Warulkar<br>All rights reserved</p>
+</footer>
+</html>
