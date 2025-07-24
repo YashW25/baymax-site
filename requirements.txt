@@ -6,3 +6,4 @@ simpleaudio
 opencv-python
 numpy
 gunicorn
+Flask-Mail
